@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', ui-sans-serif, system-ui, sans-serif;
+  background-color: #F3F4F6;
+  color: #111827;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+}
+
+button,
+a {
+  font-family: inherit;
+}
+
+.focus-ring:focus-visible {
+  outline: none;
+  ring: 2px;
+  box-shadow: 0 0 0 2px #3B82F6;
+}
